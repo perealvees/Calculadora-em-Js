@@ -15,7 +15,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(97, 148, 172);
+    background-color: #2e4553bb;
     width: 100%;
     height: 10vh;
 }
@@ -35,8 +35,8 @@ a {
 }
 
 a:hover {
-    color: rgb(97, 148, 172);
-    background-color: rgba(240, 248, 255, 0.548);
+    color: rgb(13, 30, 37);
+
     border-radius: 5px;
 }
 
@@ -47,8 +47,15 @@ span img{
 }
 
 /*molde calculadora*/
+h1{
+    color: aliceblue;
+    font-size: 1.2rem;
+    margin-bottom: 9px;
+}
+
+
 .calculadora { /*corpo da calculadora*/
-    background-color: rgba(31, 79, 167, 0.87);
+    background-color: #344a58;
     position: absolute; /* ocupar apenas o espaço dela */
     top: 50%;
     left: 50%;
@@ -74,12 +81,27 @@ span img{
 
 /*resultado das operações*/
 #resultado{
-    align-items: center;
     background-color: aliceblue;
-    width: 196px;
+    width: 198px;
     height: 30px;
     font-size: 20px;
     color: black;
     text-align: right;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+/*footer*/
+footer {
+    background-color: #2f4452;
+    color: aliceblue;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+    width: 100vw;
+}
+
+footer > p {
+    font-size: 1rem;
     padding: 5px;
 }
