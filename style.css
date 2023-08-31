@@ -49,9 +49,12 @@ span img{
     height: 50px;
 }
 
-.material-symbols-outlined {
+.btn-menu{
+    height: 30px;
+    background-color: #2f4452;
     display: none;
 }
+
 
 nav{
     margin-right: 50px;
