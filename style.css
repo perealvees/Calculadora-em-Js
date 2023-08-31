@@ -16,7 +16,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #2e4553bb;
-    width: 100%;
+    width: 100vw;
     height: 10vh;
 }
 
