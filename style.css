@@ -15,6 +15,7 @@ body {
 
 /*cabeçalho*/
 header {
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -122,17 +123,4 @@ footer {
 footer > p {
     font-size: 1rem;
     padding: 5px;
-}
-
-
-@media (max-width:600px) {
-    .material-symbols-outlined {
-        display: block;
-        color: aliceblue;
-        margin-right: 30px;
-    }
-
-    nav {
-        display: none;
-    }
 }
