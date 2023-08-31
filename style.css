@@ -10,6 +10,7 @@
 
 body {
     background-color: rgb(218, 229, 236);
+    display: flex;
 }
 
 /*cabeçalho*/
@@ -40,14 +41,6 @@ a {
 a:hover {
     color: rgb(13, 30, 37);
     border-radius: 5px;
-}
-
-.burger {
-    display: none;
-    color: white;
-    text-align: center;
-    width: 50px;
-    height: 100px;
 }
 
 span img{
@@ -128,8 +121,10 @@ footer > p {
 
 
 @media (max-width:600px) {
-    .burger {
+    .material-symbols-outlined {
         display: block;
+        color: aliceblue;
+        margin-right: 30px;
     }
 
     nav {
