@@ -49,13 +49,15 @@ span img{
     height: 50px;
 }
 
+.material-symbols-outlined {
+    display: none;
+}
 
 nav{
     margin-right: 50px;
     justify-content: center;
     align-items: center;
 }
-
 
 
 /*molde calculadora*/
