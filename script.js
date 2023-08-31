@@ -1,3 +1,4 @@
+/*functions para botões*/
 function insert (num) {
     var numero = document.getElementById('resultado').innerHTML;
     document.getElementById('resultado').innerHTML = numero + num;
@@ -19,3 +20,5 @@ function calcular () {
         document.getElementById('resultado').innerHTML = eval(resultado);
     } 
 }
+
+
